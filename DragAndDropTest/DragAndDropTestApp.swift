@@ -11,7 +11,7 @@ import SwiftUI
 struct DragAndDropTestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ReorderListItems()
         }
     }
 }

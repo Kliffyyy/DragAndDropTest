@@ -14,6 +14,7 @@
 		07D3C4E129E101FB00F59F68 /* DragAndDropTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D3C4E029E101FB00F59F68 /* DragAndDropTestTests.swift */; };
 		07D3C4EB29E101FB00F59F68 /* DragAndDropTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D3C4EA29E101FB00F59F68 /* DragAndDropTestUITests.swift */; };
 		07D3C4ED29E101FB00F59F68 /* DragAndDropTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D3C4EC29E101FB00F59F68 /* DragAndDropTestUITestsLaunchTests.swift */; };
+		07D3C53029E10D6900F59F68 /* ReorderListItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D3C52F29E10D6900F59F68 /* ReorderListItems.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		07D3C4E629E101FB00F59F68 /* DragAndDropTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragAndDropTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07D3C4EA29E101FB00F59F68 /* DragAndDropTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropTestUITests.swift; sourceTree = "<group>"; };
 		07D3C4EC29E101FB00F59F68 /* DragAndDropTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		07D3C52F29E10D6900F59F68 /* ReorderListItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReorderListItems.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				07D3C4CF29E101FA00F59F68 /* DragAndDropTestApp.swift */,
 				07D3C4D129E101FA00F59F68 /* ContentView.swift */,
+				07D3C52F29E10D6900F59F68 /* ReorderListItems.swift */,
 				07D3C4D329E101FB00F59F68 /* Assets.xcassets */,
 				07D3C4D529E101FB00F59F68 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07D3C53029E10D6900F59F68 /* ReorderListItems.swift in Sources */,
 				07D3C4D229E101FA00F59F68 /* ContentView.swift in Sources */,
 				07D3C4D029E101FA00F59F68 /* DragAndDropTestApp.swift in Sources */,
 			);
